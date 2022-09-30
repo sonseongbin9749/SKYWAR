@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af9547a654e17284a8324dbd0fda016e, type: 3}
+  m_Name: HealthPackData
+  m_EditorClassIdentifier: 
+  rate: 0.05
+  itemPrefab: {fileID: 2184066467916507167, guid: ede524bed66b4804bba7545812c80b67, type: 3}
+  <ResourceType>k__BackingField: 1
+  minAmount: 1
+  maxAmount: 1
+  useSound: {fileID: 8300000, guid: 909a6adbaacd6a44480dcf215036ce85, type: 3}
+  popupTextColor: {r: 0.50980395, g: 1, b: 0.019607844, a: 1}

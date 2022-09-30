@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14a8a548e519731439934b7e4b6c9b82, type: 3}
+  m_Name: RegularBullet
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5740403575543398405, guid: d563d827145aedd44b484473ae299c71, type: 3}
+  damage: 1
+  bulletSpeed: 20
+  explosionRadius: 0
+  sprite: {fileID: -6051064961186182539, guid: 4f4e95b34d9c7f842a2a810504f24617, type: 3}
+  animatorController: {fileID: 9100000, guid: f97fc55f4eeea47429194a8e5a67ebac, type: 2}
+  friction: 0
+  bounce: 0
+  goThroughHit: 0
+  isRayCast: 0
+  isCharging: 0
+  impactObstaclePrefab: {fileID: 4351521078836525234, guid: 190b7887ea10eac45affdd1b8a3b727f, type: 3}
+  impactEnemyPrefab: {fileID: 2515579103656511936, guid: c1765b11c19ae4f4c8e2269ac4287d1a, type: 3}
+  knockBackPower: 3
+  knockBackDelay: 0.1
+  bulletMat: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  lifeTime: 2
