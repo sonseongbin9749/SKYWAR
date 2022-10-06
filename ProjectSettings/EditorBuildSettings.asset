@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
+    path: Assets/Scenes/startmenu.unity
+    guid: 72e7c33ec4e0929469fa66f368abfded
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: dd4ca3a2127489e4f87036abdd07dc1e, type: 2}
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d07dbc889193f324791ea185f47a4b76, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6f94a904840eccc448aa4e23c85de67d, type: 2}
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 5725d42624305a0428480037c187000d
+  - enabled: 1
+    path: Assets/Scenes/Gameover.unity
+    guid: 328c9c82085e00e419240c2ea9cafabe
+  - enabled: 1
+    path: Assets/Scenes/Gameclear.unity
+    guid: ebc3f5b7e6d98a344bd9b2eaac1d94f9
+  m_configObjects: {}

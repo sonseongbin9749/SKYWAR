@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - enemybullet
+  - Bullet
+  - Item
+  - item
+  - Enemy
+  - misail
+  - Bossbullet
   layers:
   - Default
   - TransparentFX
@@ -11,15 +18,15 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
   - Enemy
-  - Obstacle
-  - Bullet
-  - EnemyMovementCollider
-  - PlayerMovementCollider
-  - Resource
-  - Door
-  - Trap
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -40,19 +47,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Floor
-    uniqueID: 630950077
-    locked: 0
-  - name: Background
-    uniqueID: 2051107703
-    locked: 0
-  - name: Agent
-    uniqueID: 3505539961
-    locked: 0
-  - name: Foreground
-    uniqueID: 4029322119
-    locked: 0
-  - name: TOP
-    uniqueID: 2830341017
     locked: 0
