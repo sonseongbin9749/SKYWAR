@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gameclear.unity
     guid: ebc3f5b7e6d98a344bd9b2eaac1d94f9
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 2474b47fe939e654fb0a7bab2d40d1c1, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 15617b7734327144bb0086f1a950718a, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 175410c206af8464c8fd88c681139d44, type: 2}

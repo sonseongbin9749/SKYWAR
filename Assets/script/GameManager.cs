@@ -68,7 +68,6 @@ public class GameManager : MonoSingleton<GameManager>
     }
     void Start()
     {
-       
         poolbullet = FindObjectOfType<Poolbullet>();
         enemyMove = FindObjectOfType<Enemy>();
         enemyBulletmove = GetComponent<enemybulletmove>();
@@ -85,9 +84,6 @@ public class GameManager : MonoSingleton<GameManager>
         highscore = PlayerPrefs.GetInt("HIGHSCORE");
         UpdateUI();
         DelaytimeText.enabled = false;
-
-
-
     }
 
     void Update()
@@ -182,9 +178,6 @@ public class GameManager : MonoSingleton<GameManager>
             
             for (int i = 0; i < 7; i++)
             {
-               
-
-
    
                 enemyMove = Instantiate(enemyflight1, spawmpoints[ranPoint].position, spawmpoints[ranPoint].rotation).GetComponent<Enemy>();
                 if (ranPoint == 4)
@@ -277,12 +270,6 @@ public class GameManager : MonoSingleton<GameManager>
         
       
     }
-
-
-
-   
-
-   
 
     public void NEXT()
     {
